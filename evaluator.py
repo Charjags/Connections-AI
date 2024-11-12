@@ -111,7 +111,7 @@ def evalFunction():
 	print("Total points scored by model: ", totalPoints)
 
 def load_puzzles():
-    with open('sample_data.json', 'r', encoding='utf-8') as file:
+    with open('../../Connections-AI2/sample_data.json', 'r', encoding='utf-8') as file:
         data = json.load(file)
 
     # Create a 3D array (X puzzles, 4 rows, 4 words)
